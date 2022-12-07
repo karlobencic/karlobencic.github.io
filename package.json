@@ -8,6 +8,7 @@
     "url": "https://github.com/karlobencic/karlobencic.github.io"
   },
   "scripts": {
+    "deploy": "cp public/* .",
     "start": "resume serve --theme stackoverflow"
   },
   "license": "MIT",
