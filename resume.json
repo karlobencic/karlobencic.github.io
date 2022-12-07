@@ -1,0 +1,312 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Karlo Benčić",
+    "label": "Software Engineer",
+    "email": "karlo.bencic@gmail.com",
+    "phone": "+385 91 127 9589",
+    "image": "profile.png",
+    "summary": "Dedicated and highly professional development expert with 7+ years of experience in the industry. Specializing in custom software solutions, I have worked as a full-stack .NET engineer in several business domains: gaming industry, government, public transport and have acquired key technical skills such as proficiency in .NET application development, ASP.NET Core and other elements of the .NET ecosystem. I have also proven experience in Java web development, React frontend development, React Native cross-platform development of mobile applications and Unity game development. I combine my academic experience in model-driven architectures and domain-driven methodologies with my entrepreneurial attitude and have deep expertise in back-end systems with a broad knowledge of existing solutions and how they relate to the current technological landscape. My primary professional interest is focus on microservices architectures and supportive technologies such as: Docker, Kubernetes and potential Blockchain implementations setting contemporary software practices - SOLID, DDD, Enterprise integration patterns, Agile, Pull Requests, Code Reviews, QA, CI/CD practices.",
+    "location": {
+      "postalCode": "10000",
+      "city": "Zagreb",
+      "countryCode": "Croatia"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "LinkedIn",
+        "url": "https://www.linkedin.com/in/karlobencic"
+      },
+      {
+        "network": "GitHub",
+        "username": "GitHub",
+        "url": "https://github.com/karlobencic"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Notch",
+      "position": "Software Engineer",
+      "startDate": "2022-09-30",
+      "endDate": "",
+      "summary": "Senior software engineer working on eCommerce platform as a subcontractor for Fontem Ventures B.V.",
+      "keywords": [".NET 6", "Azure", "Docker", "Kubernetes", "Kafka", "CQRS"],
+      "highlights": [
+        "Global multi-tenant D2C eCommerce platform for e-cigarette industry",
+        "Integrates multi-vendor and serves multi-brands and multi-markets in standardized and localized fashion using Commercetools and Contentful"
+      ],
+      "location": "Zagreb, Croatia"
+    },
+    {
+      "name": "KING ICT",
+      "position": "Senior Software Engineer",
+      "startDate": "2021-03-31",
+      "endDate": "2022-09-30",
+      "summary": "Senior software engineer on eTicketing project for public transport",
+      "keywords": [
+        ".NET Framework",
+        ".NET 5",
+        "Entity Framework",
+        "MSSQL",
+        "gRPC",
+        "RabbitMQ",
+        "Web Services",
+        "React",
+        "Firebase",
+        "Google API",
+        "GTFS",
+        "Keycloak",
+        "IAM",
+        "LDAP",
+        "React Native"
+      ],
+      "highlights": [
+        "Software architect, full-stack web developer using React and mobile developer using React Native",
+        "Modernization of public transport in the city of Split in Croatia",
+        "Mobile and web applications for trip planning and selling tickets",
+        "Real-time integration with vehicles on-board unit",
+        "Backoffice and fleet management",
+        "Integration with payment providers",
+        "Integration with Google Maps using GTFS",
+        "Integration with Google Firebase for push notifications and app integrity check",
+        "Integration with Google API for ETA calculation",
+        "Integration with Keycloak for authentication and authorization",
+        "Used Figma for design and UX work"
+      ],
+      "location": "Zagreb, Croatia"
+    },
+    {
+      "name": "KING ICT",
+      "position": ".NET Developer",
+      "startDate": "2019-07-31",
+      "endDate": "2021-03-31",
+      "summary": "Lead developer at project for electronic toll collection",
+      "keywords": [".NET Core", "Entity Framework", "MSSQL", "RabbitMQ", "Firebase", "Keycloak", "React Native", "Blazor", "Redis"],
+      "highlights": [
+        "Managed a small team of developers and designers",
+        "Software architect, full-stack web developer using Blazor and mobile developer using React Native",
+        "Modernization of the electronic billing of tickets (toll) on Croatian highways",
+        "Mobile and web applications for topping up your media",
+        "Integration with payment providers",
+        "Integration with Google Firebase for push notifications",
+        "Backoffice and voucher distribution system",
+        "Integration with ETC devices and smart cards",
+        "Optimization of SQL queries and database indexes"
+      ],
+      "location": "Zagreb, Croatia"
+    },
+    {
+      "name": "KING ICT",
+      "position": "Java Developer",
+      "startDate": "2018-12-31",
+      "endDate": "2019-07-31",
+      "summary": "Full Stack developer at project for government digital services working on all layers of the solution",
+      "keywords": ["Java", "Spring", "Hibernate", "Oracle", "React"],
+      "highlights": [
+        "Full-stack web developer using React",
+        "Government project 'Jedinstveno Upravno Mjesto' that is part of the e-Citizens projects led by FINA (Croatian Financial Agency)",
+        "Digital services which unify citizen forms and requests into a single application",
+        "Integration with payment providers",
+        "Integration with NIAS (eIDAS) for user authentication and authorization",
+        "Integration with e-Građani (e-Citizens)"
+      ],
+      "location": "Zagreb, Croatia"
+    },
+    {
+      "name": "Self-employed",
+      "position": "Unity Game Developer",
+      "startDate": "2013-12-31",
+      "endDate": "2020-01-31",
+      "summary": "Cross-platform game development implementing own ideas and solutions",
+      "keywords": ["Unity", "C#", "WebGL", "Android", "iOS", "PC", "Multiplayer", "FPS"],
+      "highlights": [
+        "Developed and published over 20 web, mobile and PC games with over 5 million players in total",
+        "Publishing on Google Play and App Store",
+        "Optimized performance, build size and quality to deliver better cross platform experience",
+        "Ads and InApp purchases integration",
+        "Implementation of monetization strategy and analytics",
+        "Reverse-engineering and code obfuscation"
+      ],
+      "location": "Zagreb, Croatia"
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Faculty of Electrical Engineering and Computing",
+      "area": "Software Engineering",
+      "studyType": "Master's degree",
+      "startDate": "2018-12-31",
+      "endDate": "2020-12-31",
+      "courses": ["Object-oriented design", "Service-oriented computing", "Distributed systems", "Internet security", "Blockchain", "DLT"],
+      "summary": "Thesis: Entry of Data from Trustless External Sources into Systems based on Distributed Ledger Technology, blockchain technology (Ethereum, Hyperledger Fabric and Chainlink)",
+      "location": {
+        "city": "Zagreb",
+        "countryCode": "Croatia"
+      }
+    },
+    {
+      "institution": "Faculty of Electrical Engineering and Computing",
+      "area": "Computing",
+      "studyType": "Bachelor’s Degree",
+      "startDate": "2015-12-31",
+      "endDate": "2018-12-31",
+      "courses": ["Object-oriented programming", "Algorithms and data structures", "Java Programming Language", "Application development using C#"],
+      "summary": "Thesis: Security system for supporting sharing of user programs in educational system SynchEduca (Java, Spring, NodeJS)",
+      "location": {
+        "city": "Zagreb",
+        "countryCode": "Croatia"
+      }
+    }
+  ],
+  "awards": [],
+  "certificates": [
+    {
+      "name": "MCSA: Web Applications",
+      "issuer": "Microsoft"
+    },
+    {
+      "name": "MCSD: App Builder",
+      "issuer": "Microsoft"
+    },
+    {
+      "name": "Microsoft Certified: Azure Developer Associate",
+      "issuer": "Microsoft"
+    },
+    {
+      "name": "Android Certified Application Developer",
+      "issuer": "Android ATC"
+    },
+    {
+      "name": "Certified SOA Professional",
+      "issuer": "Arcitura Education Inc."
+    },
+    {
+      "name": "Certified SOA Architect",
+      "issuer": "Arcitura Education Inc."
+    }
+  ],
+  "publications": [],
+  "skills": [
+    {
+      "name": ".NET development",
+      "level": "master",
+      "levelDisplay": "5+ years",
+      "keywords": [".NET Framework", ".NET Core", "ASP.NET Core", "MSSQL", "Entity Framework", "AMQP", "REST", "gRPC", "SOA", "Redis"]
+    },
+    {
+      "name": "JavaScript SPA Development",
+      "level": "advanced",
+      "levelDisplay": "5+ years",
+      "keywords": ["React", "Redux", "NodeJS", "Bootstrap", "TypeScript"]
+    },
+    {
+      "name": "Game Development",
+      "level": "advanced",
+      "levelDisplay": "5+ years",
+      "keywords": ["Unity", "WebGL", "PC", "Android", "iOS"]
+    },
+    {
+      "name": "Mobile Applications Development",
+      "level": "advanced",
+      "levelDisplay": "2+ years",
+      "keywords": ["Android", "iOS", "React Native", "Firebase", "Google API"]
+    },
+    {
+      "name": "Java Development",
+      "level": "intermediate",
+      "levelDisplay": "2+ years",
+      "keywords": ["Java", "Spring", "Spring Boot", "JPA / Hibernate", "Oracle"]
+    },
+    {
+      "name": "DevOps",
+      "level": "intermediate",
+      "levelDisplay": "2+ years",
+      "keywords": ["Jenkins", "Docker", "Kubernetes", "Git", "Azure DevOps", "Linux"]
+    }
+  ],
+  "languages": [
+    {
+      "fluency": "Master",
+      "fluencyDisplay": "Native Speaker",
+      "language": "Croatian"
+    },
+    {
+      "fluency": "Advanced",
+      "fluencyDisplay": "Full Professional",
+      "language": "English"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Video games"
+    },
+    {
+      "name": "Cryptocurrencies"
+    },
+    {
+      "name": "Blockchain"
+    },
+    {
+      "name": "Automotive industry"
+    },
+    {
+      "name": "Music"
+    }
+  ],
+  "references": [],
+  "projects": [
+    {
+      "name": "Paradise Paintball 4D",
+      "summary": "A revival project of the old Paradise Paintball 3D browser game which later evolved to UberStrike. This game allows you to play against other players within your web browser without any installations.",
+      "url": "http://pp4d.online",
+      "keywords": ["Unity", "WebGL", "Multiplayer", "FPS"],
+      "highlights": [
+        "Browser-based multiplayer FPS game made with Unity and built for WebGL",
+        "Classic FPS Gameplay set in multiple different battle environments",
+        "Dozens of weapons to unlock and upgrade to",
+        "Dozens of armor and gear items to customize your character",
+        "Deathmatch and Team Deathmatch game modes"
+      ]
+    },
+    {
+      "name": "YoloSwagClub",
+      "summary": "A collection of games based on montage parodies and memes published on multiple platforms with a total of over 5 million players. Some of the best rated games ever on the Google Play and App Store with a rating of 4.9/5.0",
+      "url": "http://yoloswagclub.com",
+      "keywords": ["Unity", "WebGL", "Android", "iOS", "PC"],
+      "highlights": ["MLG Flappy Bird 420", "Angry Dews", "Slav Tiles"]
+    },
+    {
+      "name": "Distributed Land Registry",
+      "summary": "Distributed Land Registry solution for Croatia using blockchain technology. All nodes in the network are connected to a Kafka cluster for message queuing and a CouchDB cluster for storing the blockchain data. Nodes have read-only access to the blockchain data and are connected to a Hyperledger Fabric chaincode for managing land registry data, but land owners have write access to their blockchain data using a smart contract written in chaincode with TypeScript and Go. Since every data change is recorded on the blockchain, the data is immutable and cannot be changed.",
+      "keywords": ["Smart contracts", "Hyperledger Fabric", "Hyperledger Explorer", "Docker", "NodeJS", "React", "gRPC", "Kafka", "CouchDB"],
+      "highlights": [
+        "Academic project for the university",
+        "The solution consists of a web application for managing land registry data and also includes a distributed database for land stored on the blockchain",
+        "The solution is implemented on a permissioned blockchain network based on Hyperledger Fabric and also includes a Hyperledger Explorer instance for monitoring the network",
+        "The web application is written in NodeJS and uses React for the frontend and Express API for the backend",
+        "Land is modeled as a digital asset on the blockchain and consists of a unique ID, owner, area, location, and other data",
+        "Everything is deployed as a Docker container"
+      ]
+    },
+    {
+      "name": "DLT Oracle",
+      "summary": "Decentralized oracle for requesting cryptocurrency market prices. This project implements the possible solution to 'oracle problem', which is one of the biggest problems facing DLT systems based on smart contracts. Furthermore, an in-depth analysis and detailed comparison of existing approaches to solving the oracle problem was carried out with regard to the requirements obtained from the challenge of reliable connection of the blockchain and external data sources. Since the concept of reliability in DLT systems is not adequately solved by cryptographic security, we arrive at the concept of data truthfulness as a new property needed to characterize reliable, decentralized systems. A decentralized oracle makes DLT useful by allowing the entry of non-confidential data into the system in a decentralized manner, without relying on a central entity, which eliminates a single point of failure.",
+      "keywords": ["Ethereum", "Solidity", "Truffle", "Chainlink", "Web3.js", "NodeJS", "React", "Docker"],
+      "highlights": [
+        "Academic project as part of my master's thesis",
+        "The solution consists of a smart contract for requesting cryptocurrency market prices and a web application for managing the oracle",
+        "The smart contract is written in Solidity and uses Chainlink for requesting market prices from external APIs",
+        "The web application is written in NodeJS and uses React for the frontend and Web3.js for communicating with the smart contract",
+        "Linkpool is used for managing the oracle nodes and LINK token is used for paying the oracle nodes for their work",
+        "Everything is deployed as a Docker container"
+      ]
+    }
+  ],
+  "meta": {
+    "version": "v1.0.0",
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+  }
+}
