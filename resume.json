@@ -32,12 +32,12 @@
       "startDate": "2022-09-30",
       "endDate": "",
       "summary": "Senior software engineer working on eCommerce platform as a subcontractor for Fontem Ventures B.V.",
-      "keywords": [".NET 6", "Azure", "Docker", "Kubernetes", "Kafka", "CQRS"],
+      "keywords": [".NET 6", "Azure", "Docker", "Kubernetes", "Kafka", "CQRS", "Next.js"],
       "highlights": [
         "Global multi-tenant D2C eCommerce platform for e-cigarette industry",
-        "Integrates multi-vendor and serves multi-brands and multi-markets in standardized and localized fashion using Commercetools and Contentful"
+        "Integrates multi-vendor and serves multi-brands and multi-markets in standardized and localized fashion"
       ],
-      "location": "Zagreb, Croatia"
+      "location": "Zagreb, Croatia / Amsterdam, Netherlands"
     },
     {
       "name": "KING ICT",
@@ -102,7 +102,7 @@
       "position": "Java Developer",
       "startDate": "2018-12-31",
       "endDate": "2019-07-31",
-      "summary": "Full Stack developer at project for government digital services working on all layers of the solution",
+      "summary": "Full Stack developer at project for government digital services",
       "keywords": ["Java", "Spring", "Hibernate", "Oracle", "React"],
       "highlights": [
         "Full-stack web developer using React",
@@ -126,6 +126,7 @@
         "Publishing on Google Play and App Store",
         "Optimized performance, build size and quality to deliver better cross platform experience",
         "Ads and InApp purchases integration",
+        "Apple Game Center and Google Play Games Services integration for leadboards and achievements",
         "Implementation of monetization strategy and analytics",
         "Reverse-engineering and code obfuscation"
       ],
@@ -150,7 +151,7 @@
     {
       "institution": "Faculty of Electrical Engineering and Computing",
       "area": "Computing",
-      "studyType": "Bachelor’s Degree",
+      "studyType": "Bachelor’s degree",
       "startDate": "2015-12-31",
       "endDate": "2018-12-31",
       "courses": ["Object-oriented programming", "Algorithms and data structures", "Java Programming Language", "Application development using C#"],
@@ -191,16 +192,16 @@
   "publications": [],
   "skills": [
     {
-      "name": ".NET development",
+      "name": ".NET Development",
       "level": "master",
       "levelDisplay": "5+ years",
       "keywords": [".NET Framework", ".NET Core", "ASP.NET Core", "MSSQL", "Entity Framework", "AMQP", "REST", "gRPC", "SOA", "Redis"]
     },
     {
-      "name": "JavaScript SPA Development",
+      "name": "JavaScript Development",
       "level": "advanced",
       "levelDisplay": "5+ years",
-      "keywords": ["React", "Redux", "NodeJS", "Bootstrap", "TypeScript"]
+      "keywords": ["React", "Redux", "Next.js", "SPA", "NodeJS", "Bootstrap", "TypeScript", "Web3.js"]
     },
     {
       "name": "Game Development",
@@ -224,7 +225,7 @@
       "name": "DevOps",
       "level": "intermediate",
       "levelDisplay": "2+ years",
-      "keywords": ["Jenkins", "Docker", "Kubernetes", "Git", "Azure DevOps", "Linux"]
+      "keywords": ["CI/CD", "Jenkins", "Docker", "Kubernetes", "Git", "Azure DevOps", "Linux", "Windows Server"]
     }
   ],
   "languages": [
@@ -280,7 +281,7 @@
     },
     {
       "name": "Distributed Land Registry",
-      "summary": "Distributed Land Registry solution for Croatia using blockchain technology. All nodes in the network are connected to a Kafka cluster for message queuing and a CouchDB cluster for storing the blockchain data. Nodes have read-only access to the blockchain data and are connected to a Hyperledger Fabric chaincode for managing land registry data, but land owners have write access to their blockchain data using a smart contract written in chaincode with TypeScript and Go. Since every data change is recorded on the blockchain, the data is immutable and cannot be changed.",
+      "summary": "Distributed Land Registry solution for Croatia using blockchain technology. All users have read-only access to the blockchain data, but land owner nodes have write access for managing their own land registry data using a smart contract written in chaincode with TypeScript and Go. All nodes in the network are connected to a Kafka cluster for message queuing and a CouchDB cluster for storing the blockchain data. Since every data change is recorded on the blockchain, the data is immutable and cannot be changed.",
       "keywords": ["Smart contracts", "Hyperledger Fabric", "Hyperledger Explorer", "Docker", "NodeJS", "React", "gRPC", "Kafka", "CouchDB"],
       "highlights": [
         "Academic project for the university",
@@ -293,7 +294,7 @@
     },
     {
       "name": "DLT Oracle",
-      "summary": "Decentralized oracle for requesting cryptocurrency market prices. This project implements the possible solution to 'oracle problem', which is one of the biggest problems facing DLT systems based on smart contracts. Furthermore, an in-depth analysis and detailed comparison of existing approaches to solving the oracle problem was carried out with regard to the requirements obtained from the challenge of reliable connection of the blockchain and external data sources. Since the concept of reliability in DLT systems is not adequately solved by cryptographic security, we arrive at the concept of data truthfulness as a new property needed to characterize reliable, decentralized systems. A decentralized oracle makes DLT useful by allowing the entry of non-confidential data into the system in a decentralized manner, without relying on a central entity, which eliminates a single point of failure.",
+      "summary": "Decentralized oracle for requesting cryptocurrency market prices. This project implements the possible solution to 'oracle problem', which is one of the biggest problems facing DLT systems based on smart contracts. Since the concept of reliability in DLT systems is not adequately solved by cryptographic security, we arrive at the concept of data truthfulness as a new property needed to characterize reliable, decentralized systems. A decentralized oracle makes DLT useful by allowing the entry of non-confidential data into the system in a decentralized manner, without relying on a central entity, which eliminates a single point of failure.",
       "keywords": ["Ethereum", "Solidity", "Truffle", "Chainlink", "Web3.js", "NodeJS", "React", "Docker"],
       "highlights": [
         "Academic project as part of my master's thesis",
