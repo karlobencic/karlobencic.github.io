@@ -5,7 +5,7 @@
     "label": "Software Engineer",
     "email": "karlo.bencic@gmail.com",
     "image": "profile.png",
-    "summary": "I am a dedicated and highly professional software engineer with over 7 years of experience providing custom software solutions across various industries. As a full-stack web and mobile developer, I specialize in ASP.NET Core and other components of the .NET ecosystem. I also possess expertise in Next.js, Node.js and Java web development, React frontend development, and React Native cross-platform mobile application development. I also have extensive experience in Unity game development, having created a range of games for different platforms. In addition to my technical skills, I have experience with cloud technologies such as Azure, Firebase and Vercel and possess strong DevOps skills. I am skilled in setting up and managing DevOps pipelines for software delivery and deployment, including code version control, continuous integration, and continuous delivery. I am also well-versed in containerization technologies such as Docker and Kubernetes. By combining my academic background in model-driven architectures and domain-driven methodologies with an entrepreneurial mindset, I offer deep expertise in back-end systems and a comprehensive understanding of existing solutions in relation to the current technological landscape. My primary focus lies in microservices architectures and supporting technologies such as Blockchain. I am also well-versed in contemporary software practices, including SOLID, DDD, Enterprise integration patterns, Agile, Pull Requests, Code Reviews, and QA.",
+    "summary": "I am a dedicated and highly professional software engineer with over 7 years of experience providing custom software solutions across various industries. As a full-stack web and mobile developer, I specialize in ASP.NET Core and other components of the .NET ecosystem. I also possess expertise in Next.js, Node.js and Java web development, React frontend development, and React Native cross-platform mobile application development. I also have extensive experience in Unity game development, having created a range of games for different platforms. In addition to my technical skills, I have experience with cloud technologies such as Azure, AWS, Firebase and Vercel and possess strong DevOps skills. I am skilled in setting up and managing DevOps pipelines for software delivery and deployment, including code version control, continuous integration, and continuous delivery. I am also well-versed in containerization technologies such as Docker and Kubernetes. By combining my academic background in model-driven architectures and domain-driven methodologies with an entrepreneurial mindset, I offer deep expertise in back-end systems and a comprehensive understanding of existing solutions in relation to the current technological landscape. My primary focus lies in microservices architectures and supporting technologies such as Blockchain. I am also well-versed in contemporary software practices, including SOLID, DDD, Enterprise integration patterns, Agile, Pull Requests, Code Reviews, and QA.",
     "location": {
       "postalCode": "10000",
       "city": "Zagreb",
@@ -30,11 +30,17 @@
       "position": "Software Engineer",
       "startDate": "2022-09-01",
       "endDate": "",
-      "summary": "Senior software engineer working on eCommerce platform as a subcontractor for Fontem Ventures B.V.",
+      "summary": "Senior software engineer working on a global multi-tenant D2C eCommerce platform as a subcontractor for Fontem Ventures B.V.",
       "keywords": [".NET 7", "Azure", "Docker", "Kubernetes", "Kafka", "CQRS", "Next.js", "Datadog", "Contentful", "Commercetools", "Terraform"],
       "highlights": [
-        "Global multi-tenant D2C eCommerce platform for the e-cigarette industry",
-        "Integrates multi-vendor and serves multi-brands and multi-markets in standardized and localized fashion"
+        "Integrates multi-vendor and serves multi-brands and multi-markets in standardized and localized fashion",
+        "Centralized the configuration of all micro services",
+        "Identified and automated manual tasks performed across the organization",
+        "Streamlined the deployment of the system to new markets and launching of new features",
+        "Integration with Contentful and Commercetools",
+        "Implemented enhancements and optimizations to improve system performance",
+        "Contributed to the design and architecture discussions for system improvements",
+        "Provided technical guidance and mentorship to the development team, fostering a collaborative and efficient work environment"
       ],
       "location": "Zagreb, Croatia / Amsterdam, Netherlands"
     },
@@ -224,9 +230,6 @@
     },
     {
       "name": "Automotive industry"
-    },
-    {
-      "name": "Music"
     },
     {
       "name": "Education"
