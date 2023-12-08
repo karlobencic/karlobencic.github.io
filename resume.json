@@ -5,7 +5,7 @@
     "label": "Software Engineer",
     "email": "karlo.bencic@gmail.com",
     "image": "profile.png",
-    "summary": "I am a dedicated and highly professional software engineer with over 7 years of experience providing custom software solutions across various industries. As a full-stack web and mobile developer, I specialize in ASP.NET Core and other components of the .NET ecosystem. I also possess expertise in Next.js, Node.js and Java web development, React frontend development, and React Native cross-platform mobile application development. I also have extensive experience in Unity game development, having created a range of games for different platforms. In addition to my technical skills, I have experience with cloud technologies such as Azure, AWS, Firebase and Vercel and possess strong DevOps skills. I am skilled in setting up and managing DevOps pipelines for software delivery and deployment, including code version control, continuous integration, and continuous delivery. I am also well-versed in containerization technologies such as Docker and Kubernetes. By combining my academic background in model-driven architectures and domain-driven methodologies with an entrepreneurial mindset, I offer deep expertise in back-end systems and a comprehensive understanding of existing solutions in relation to the current technological landscape. My primary focus lies in microservices architectures and supporting technologies such as Blockchain. I am also well-versed in contemporary software practices, including SOLID, DDD, Enterprise integration patterns, Agile, Pull Requests, Code Reviews, and QA.",
+    "summary": "I am a dedicated and highly professional software engineer with over 10 years of experience providing custom software solutions across various industries. As a full-stack web and mobile developer, I specialize in ASP.NET Core and other components of the .NET ecosystem. I also possess expertise in Next.js, Node.js and Java web development, React frontend development, and React Native cross-platform mobile application development. I also have extensive experience in Unity game development, having created a range of games for different platforms. In addition to my technical skills, I have experience with cloud technologies such as Azure, AWS, Firebase and Vercel and possess strong DevOps skills. I am skilled in setting up and managing DevOps pipelines for software delivery and deployment, including code version control, continuous integration, and continuous delivery. I am also well-versed in containerization technologies such as Docker and Kubernetes. By combining my academic background in model-driven architectures and domain-driven methodologies with an entrepreneurial mindset, I offer deep expertise in back-end systems and a comprehensive understanding of existing solutions in relation to the current technological landscape. My primary focus lies in microservices architectures and supporting technologies such as Blockchain. I am also well-versed in contemporary software practices, including SOLID, DDD, Enterprise integration patterns, Agile, Pull Requests, Code Reviews, and QA.",
     "location": {
       "postalCode": "10000",
       "city": "Zagreb",
@@ -26,12 +26,28 @@
   },
   "work": [
     {
+      "name": "Self-employed",
+      "position": "Freelance Software Engineer",
+      "startDate": "2022-12-01",
+      "endDate": "",
+      "summary": "Encompassing roles such as Solution Architect, DevOps Engineer, Software Architect and Full-stack Developer leading major projects across multiple international companies",
+      "keywords": ["Azure", "AWS", "Vercel", "Git", "Microservices", "Software Architecture", "Solution Architecture", "Mobile", "DevOps"],
+      "highlights": [
+        "Led the design and migration of a monolithic system to a cloud-based microservices architecture, enhancing system performance and scalability",
+        "Architected and implemented robust DevOps practices, establishing CI/CD pipelines for efficient deployment and system reliability",
+        "Designed a scalable, multi-tenant back-office system, applying Clean Architecture and Domain-Driven Design for a social support project",
+        "Managed end-to-end development and integration of system components, ensuring high code quality and system performance",
+        "Provided strategic direction and technical leadership, driving projects to completion while promoting a culture of continuous learning and innovation"
+      ],
+      "location": "Zagreb, Croatia"
+    },
+    {
       "name": "Notch",
-      "position": "Software Engineer",
+      "position": "Principal Software Engineer",
       "startDate": "2022-09-01",
       "endDate": "",
       "summary": "Senior software engineer working on a global multi-tenant D2C eCommerce platform as a subcontractor for Fontem Ventures B.V.",
-      "keywords": [".NET 7", "Azure", "Docker", "Kubernetes", "Kafka", "CQRS", "Next.js", "Datadog", "Contentful", "Commercetools", "Terraform"],
+      "keywords": [".NET 7", "Azure", "Docker", "Kubernetes", "Kafka", "CQRS", "Next.js", "DataDog", "Contentful", "Commercetools", "Terraform"],
       "highlights": [
         "Integrates multi-vendor and serves multi-brands and multi-markets in standardized and localized fashion",
         "Centralized the configuration of all micro services",
@@ -102,10 +118,13 @@
       "startDate": "2013-12-31",
       "endDate": "2020-01-31",
       "summary": "Cross-platform game development implementing own ideas and solutions",
-      "keywords": ["Unity", "C#", "WebGL", "Android", "iOS", "PC", "Multiplayer", "FPS"],
+      "keywords": ["Unity", "C#", "WebGL", "Android", "iOS", "PC", "Three.js", "Phaser.js", "Multiplayer", "FPS"],
       "highlights": [
-        "Developed and published over 20 web, mobile, and PC games with over 5 million players in total, optimizing performance, build size, and quality for a better cross-platform experience",
-        "Published on Google Play and App Store, integrating ads, in-app purchases, Apple Game Center, and Google Play Games Services for leaderboards and achievements",
+        "Developed and published over 20 web, mobile and PC games with over 5 million players in total",
+        "Publishing on Google Play and App Store",
+        "Optimized performance, build size and quality to deliver better cross platform experience",
+        "Ads and InApp purchases integration",
+        "Apple Game Center and Google Play Games Services integration for leadboards and achievements",
         "Implemented monetization strategies, analytics, and utilized reverse-engineering including code obfuscation"
       ],
       "location": "Zagreb, Croatia"
@@ -173,22 +192,22 @@
       "name": ".NET Development",
       "level": "master",
       "levelDisplay": "5+ years",
-      "keywords": [".NET Framework", ".NET Core", "ASP.NET Core", "SQL", "Entity Framework", "NoSQL", "AMQP", "REST", "gRPC", "SOA"]
+      "keywords": [".NET Framework", ".NET Core", "ASP.NET Core", "SQL", "Entity Framework", "NoSQL", "AMQP", "REST", "gRPC", "Hangfire", "GraphQL"]
     },
     {
       "name": "JavaScript Development",
       "level": "master",
       "levelDisplay": "5+ years",
-      "keywords": ["React", "Redux", "Next.js", "Prisma", "SPA", "Web3.js", "Node.js", "Express", "Nest.js", "TypeScript", "Bootstrap", "Tailwind"]
+      "keywords": ["React", "Redux", "Next.js", "Prisma", "SPA", "Web3.js", "Node.js", "Express", "Nest.js", "Angular", "TypeScript", "Bootstrap", "Tailwind"]
     },
     {
       "name": "Game Development",
       "level": "advanced",
       "levelDisplay": "5+ years",
-      "keywords": ["Unity", "WebGL", "Android", "iOS"]
+      "keywords": ["Unity", "WebGL", "Android", "iOS", "Three.js", "Phaser.js"]
     },
     {
-      "name": "Mobile Applications Development",
+      "name": "Mobile Development",
       "level": "advanced",
       "levelDisplay": "3+ years",
       "keywords": ["Android", "iOS", "React Native", "Firebase", "Google API"]
@@ -196,8 +215,8 @@
     {
       "name": "Cloud and DevOps",
       "level": "advanced",
-      "levelDisplay": "2+ years",
-      "keywords": ["Azure", "Azure DevOps", "AWS", "Firebase", "Vercel", "CI/CD", "Jenkins", "Docker", "Kubernetes", "Git", "Terraform", "Datadog"]
+      "levelDisplay": "3+ years",
+      "keywords": ["Azure", "Azure DevOps", "AWS", "Firebase", "Vercel", "CI/CD", "Jenkins", "Docker", "Kubernetes", "Git", "Terraform", "DataDog"]
     },
     {
       "name": "Java Development",
@@ -273,17 +292,6 @@
         "Developed an academic project as part of my master's thesis, involving a smart contract for requesting cryptocurrency market prices and a web application for managing the oracle",
         "Implemented a smart contract in Solidity, utilizing Chainlink for external API requests, and created the web application using Node.js, React, and Web3.js for smart contract communication",
         "Utilized Linkpool for managing oracle nodes and used LINK tokens for compensating oracle nodes for their work"
-      ]
-    },
-    {
-      "name": "Community21",
-      "summary": "Software architect and a full-stack web developer for Peoples Place Community Partnerships (PPCP) on their innovative project, Community21 (C21). C21 is a multi-tenant SaaS aimed at supporting the 21st Century Skills (21CS) program, which provides flexible training and work experience for disadvantaged young people. By leveraging Azure Cloud and latest technology stacks, I created a robust and scalable system that addresses social issues such as the digital skills gap, local unemployment, and in-work poverty.",
-      "keywords": ["Azure", "Azure AD B2C", "DDD", "CQRS", ".NET", "Entity Framework", "SQL Server", "Azure DevOps"],
-      "highlights": [
-        "Designed and implemented a scalable, multi-tenant back-office system using Azure Cloud, .NET 7 and Next.js",
-        "Implemented Azure AD B2C for secure and seamless user authentication and authorization",
-        "Clean Architecture principles with Domain-Driven Design (DDD) and Command Query Responsibility Segregation (CQRS) patterns to ensure a modular and maintainable architecture",
-        "Data-driven solution using Azure SQL Database and Azure Blob Storage to efficiently manage and analyze participant information and program performance"
       ]
     }
   ],
