@@ -26,18 +26,17 @@
   },
   "work": [
     {
-      "name": "Self-employed",
-      "position": "Freelance Software Engineer",
-      "startDate": "2022-12-01",
+      "name": "NextLevel Dev (self-employed)",
+      "position": "Software Architect / DevOps Engineer",
+      "startDate": "2023-01-01",
       "endDate": "",
-      "summary": "Encompassing roles such as Solution Architect, DevOps Engineer, Software Architect and Full-stack Developer leading major projects across multiple international companies",
-      "keywords": ["Azure", "AWS", "Vercel", "Git", "Microservices", "Software Architecture", "Solution Architecture", "Mobile", "DevOps"],
+      "summary": "Technology-agnostic Solution Architect, DevOps Engineer, Software Architect and a Full-stack web and mobile developer leading major projects across multiple international companies. Providing strategic direction and technical leadership, driving projects to completion while promoting a culture of continuous learning and innovation.",
+      "keywords": ["Azure", "AWS", "Vercel", "Microservices", "Software Architecture", "Solution Architecture", "Mobile", "DevOps", "AI"],
       "highlights": [
         "Led the design and migration of a monolithic system to a cloud-based microservices architecture, enhancing system performance and scalability",
         "Architected and implemented robust DevOps practices, establishing CI/CD pipelines for efficient deployment and system reliability",
         "Designed a scalable, multi-tenant back-office system, applying Clean Architecture and Domain-Driven Design for a social support project",
-        "Managed end-to-end development and integration of system components, ensuring high code quality and system performance",
-        "Provided strategic direction and technical leadership, driving projects to completion while promoting a culture of continuous learning and innovation"
+        "Managed end-to-end development and integration of system components, ensuring high code quality and system performance"
       ],
       "location": "Zagreb, Croatia"
     },
@@ -45,8 +44,8 @@
       "name": "Notch",
       "position": "Principal Software Engineer",
       "startDate": "2022-09-01",
-      "endDate": "",
-      "summary": "Senior software engineer working on a global multi-tenant D2C eCommerce platform as a subcontractor for Fontem Ventures B.V.",
+      "endDate": "2024-09-30",
+      "summary": "Senior software engineer working on a global multi-tenant D2C eCommerce platform",
       "keywords": [".NET 7", "Azure", "Docker", "Kubernetes", "Kafka", "CQRS", "Next.js", "DataDog", "Contentful", "Commercetools", "Terraform"],
       "highlights": [
         "Integrates multi-vendor and serves multi-brands and multi-markets in standardized and localized fashion",
@@ -113,7 +112,7 @@
       "location": "Zagreb, Croatia"
     },
     {
-      "name": "Self-employed",
+      "name": "NextLevel Dev (self-employed)",
       "position": "Unity Game Developer",
       "startDate": "2013-12-31",
       "endDate": "2020-01-31",
@@ -210,13 +209,13 @@
       "name": "Mobile Development",
       "level": "advanced",
       "levelDisplay": "3+ years",
-      "keywords": ["Android", "iOS", "React Native", "Firebase", "Google API"]
+      "keywords": ["Android", "iOS", "React Native", "Firebase", "Google API", "Expo"]
     },
     {
-      "name": "Cloud and DevOps",
-      "level": "advanced",
-      "levelDisplay": "3+ years",
-      "keywords": ["Azure", "Azure DevOps", "AWS", "Firebase", "Vercel", "CI/CD", "Jenkins", "Docker", "Kubernetes", "Git", "Terraform", "DataDog"]
+      "name": "DevOps",
+      "level": "master",
+      "levelDisplay": "4+ years",
+      "keywords": ["Azure", "AWS", "Firebase", "Vercel", "CI/CD", "Jenkins", "Docker", "Kubernetes", "Git", "Terraform", "APM"]
     },
     {
       "name": "Java Development",
@@ -252,6 +251,9 @@
     },
     {
       "name": "Education"
+    },
+    {
+      "name": "Artificial intelligence"
     }
   ],
   "references": [],
