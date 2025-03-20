@@ -4,8 +4,9 @@
     "name": "Karlo Benčić",
     "label": "Software Engineer",
     "email": "karlo.bencic@gmail.com",
+    "url": "https://nextlevel.dev",
     "image": "profile.png",
-    "summary": "I am a dedicated and highly professional software engineer with over 10 years of experience providing custom software solutions across various industries. As a full-stack web and mobile developer, I specialize in ASP.NET Core and other components of the .NET ecosystem. I also possess expertise in Next.js, Node.js and Java web development, React frontend development, and React Native cross-platform mobile application development. I also have extensive experience in Unity game development, having created a range of games for different platforms. In addition to my technical skills, I have experience with cloud technologies such as Azure, AWS, Firebase and Vercel and possess strong DevOps skills. I am skilled in setting up and managing DevOps pipelines for software delivery and deployment, including code version control, continuous integration, and continuous delivery. I am also well-versed in containerization technologies such as Docker and Kubernetes. By combining my academic background in model-driven architectures and domain-driven methodologies with an entrepreneurial mindset, I offer deep expertise in back-end systems and a comprehensive understanding of existing solutions in relation to the current technological landscape. My primary focus lies in microservices architectures and supporting technologies such as Blockchain. I am also well-versed in contemporary software practices, including SOLID, DDD, Enterprise integration patterns, Agile, Pull Requests, Code Reviews, and QA.",
+    "summary": "Software Engineer and Solution Architect with 10+ years of experience in full-stack development, cloud architecture, and DevOps. Expert in .NET Core, React, mobile and cloud technologies such as Azure and AWS. Proven track record of leading enterprise software projects, implementing microservices architectures, and delivering scalable solutions. Strong background in web development, mobile applications, and extensive experience in game development, having created a range of successful games for different platforms. Skilled in Agile methodologies, CI/CD implementation, and cloud infrastructure management. By combining my academic background in model-driven architectures and domain-driven methodologies with an entrepreneurial mindset, I offer deep expertise in product development and a comprehensive understanding of existing solutions in relation to the current technological landscape.",
     "location": {
       "postalCode": "10000",
       "city": "Zagreb",
@@ -26,17 +27,42 @@
   },
   "work": [
     {
-      "name": "NextLevel Dev (self-employed)",
+      "name": "NextLevel Dev",
+      "url": "https://nextlevel.dev",
       "position": "Software Architect / DevOps Engineer",
       "startDate": "2023-01-01",
       "endDate": "",
-      "summary": "Technology-agnostic Solution Architect, DevOps Engineer, Software Architect and a Full-stack web and mobile developer leading major projects across multiple international companies. Providing strategic direction and technical leadership, driving projects to completion while promoting a culture of continuous learning and innovation.",
-      "keywords": ["Azure", "AWS", "Vercel", "Microservices", "Software Architecture", "Solution Architecture", "Mobile", "DevOps", "AI"],
+      "summary": "Leading strategic software development projects across web, mobile, and cloud platforms while providing technical leadership and consulting services. Specializing in enterprise-grade solutions using .NET ecosystem, modern web technologies, and cloud platforms. Focus on microservices architecture, AI integration, and following industry best practices while promoting a culture of continuous learning and innovation.",
+      "keywords": [
+        "Azure",
+        "AWS",
+        "Vercel",
+        "Microservices",
+        "Software Architecture",
+        "Solution Architecture",
+        "Mobile",
+        "DevOps",
+        "AI",
+        ".NET Core",
+        "Angular",
+        "React",
+        "React Native",
+        "Next.js",
+        "Unity",
+        "Flowise AI",
+        "LangChain",
+        "Docker",
+        "Kubernetes",
+        "Terraform"
+      ],
       "highlights": [
-        "Led the design and migration of a monolithic system to a cloud-based microservices architecture, enhancing system performance and scalability",
-        "Architected and implemented robust DevOps practices, establishing CI/CD pipelines for efficient deployment and system reliability",
-        "Designed a scalable, multi-tenant back-office system, applying Clean Architecture and Domain-Driven Design for a social support project",
-        "Managed end-to-end development and integration of system components, ensuring high code quality and system performance"
+        "Developed the first independent trust infrastructure platform for digital media authentication using C2PA standard at TrustNXT GmbH, incorporating serverless architecture and open-sourcing TypeScript SDK",
+        "Led migration from monolith to cloud-based microservices architecture at Jobmatix B.V., integrating DevOps practices and AI-powered solutions with Flowise AI",
+        "Developed a scalable back-office platform at Kimeru BV, implementing microservices architecture with .NET Core, Angular, and RabbitMQ, achieving 24/7 system availability",
+        "Built cross-platform legal case management system integrated with Croatian government digital services using React Native and Expo",
+        "Constructed membership and event management platform for Croatian Chemical Society with automated workflows and centralized data management",
+        "Designed scalable back-office system for a social support project, applying Clean Architecture and Domain-Driven Design principles",
+        "Implemented robust DevOps practices, establishing CI/CD pipelines for efficient deployment and system reliability"
       ],
       "location": "Zagreb, Croatia"
     },
@@ -45,17 +71,15 @@
       "position": "Principal Software Engineer",
       "startDate": "2022-09-01",
       "endDate": "2024-09-30",
-      "summary": "Senior software engineer working on a global multi-tenant D2C eCommerce platform",
-      "keywords": [".NET 7", "Azure", "Docker", "Kubernetes", "Kafka", "CQRS", "Next.js", "DataDog", "Contentful", "Commercetools", "Terraform"],
+      "summary": "Technical Lead for global multi-tenant eCommerce platform development",
+      "keywords": [".NET", "Azure", "Microservices", "Docker", "Kubernetes", "Kafka", "Next.js", "CQRS", "DataDog", "Contentful", "Commercetools"],
       "highlights": [
         "Integrates multi-vendor and serves multi-brands and multi-markets in standardized and localized fashion",
-        "Centralized the configuration of all micro services",
-        "Identified and automated manual tasks performed across the organization",
-        "Streamlined the deployment of the system to new markets and launching of new features",
-        "Integration with Contentful and Commercetools",
-        "Implemented enhancements and optimizations to improve system performance",
-        "Contributed to the design and architecture discussions for system improvements",
-        "Provided technical guidance and mentorship to the development team, fostering a collaborative and efficient work environment"
+        "Increased platform performance through microservices optimization and caching implementation",
+        "Reduced deployment errors through centralized configuration management",
+        "Led successful integration of 3rd party services including Contentful and Commercetools",
+        "Mentored team of multiple developers, improving code quality and reducing technical debt",
+        "Implemented monitoring and alerting system achieving 99.9% platform availability"
       ],
       "location": "Zagreb, Croatia / Amsterdam, Netherlands"
     },
@@ -147,7 +171,7 @@
     {
       "institution": "Faculty of Electrical Engineering and Computing",
       "area": "Computing",
-      "studyType": "Bachelor’s degree",
+      "studyType": "Bachelor's degree",
       "startDate": "2015-12-31",
       "endDate": "2018-12-31",
       "courses": ["Object-oriented programming", "Algorithms and data structures", "Java Programming Language", "Application development using C#"],
@@ -188,40 +212,34 @@
   "publications": [],
   "skills": [
     {
-      "name": ".NET Development",
+      "name": "Programming Languages",
       "level": "master",
-      "levelDisplay": "5+ years",
-      "keywords": [".NET Framework", ".NET Core", "ASP.NET Core", "SQL", "Entity Framework", "NoSQL", "AMQP", "REST", "gRPC", "Hangfire", "GraphQL"]
+      "keywords": ["C#", ".NET", "JavaScript", "TypeScript", "Java", "Unity", "Laravel", "PHP"]
     },
     {
-      "name": "JavaScript Development",
+      "name": "Web Development",
       "level": "master",
-      "levelDisplay": "5+ years",
-      "keywords": ["React", "Redux", "Next.js", "Prisma", "SPA", "Web3.js", "Node.js", "Express", "Nest.js", "Angular", "TypeScript", "Bootstrap", "Tailwind"]
+      "keywords": ["ASP.NET Core", "React", "Next.js", "Node.js", "REST API", "GraphQL", "Angular", "Nest.js", "Tailwind", "Web3.js"]
     },
     {
-      "name": "Game Development",
+      "name": "Cloud & DevOps",
+      "level": "master",
+      "keywords": ["Azure", "AWS", "Vercel", "Docker", "Kubernetes", "CI/CD", "Terraform"]
+    },
+    {
+      "name": "Database Technologies",
       "level": "advanced",
-      "levelDisplay": "5+ years",
-      "keywords": ["Unity", "WebGL", "Android", "iOS", "Three.js", "Phaser.js"]
+      "keywords": ["SQL", "NoSQL", "SQL Server", "PostgreSQL", "MongoDB", "Redis", "RDS", "DynamoDB"]
     },
     {
       "name": "Mobile Development",
       "level": "advanced",
-      "levelDisplay": "3+ years",
-      "keywords": ["Android", "iOS", "React Native", "Firebase", "Google API", "Expo"]
+      "keywords": ["React Native", "Expo", "Android", "iOS", "Firebase", "Google API"]
     },
     {
-      "name": "DevOps",
+      "name": "Software Architecture",
       "level": "master",
-      "levelDisplay": "4+ years",
-      "keywords": ["Azure", "AWS", "Firebase", "Vercel", "CI/CD", "Jenkins", "Docker", "Kubernetes", "Git", "Terraform", "APM"]
-    },
-    {
-      "name": "Java Development",
-      "level": "intermediate",
-      "levelDisplay": "2+ years",
-      "keywords": ["Java", "Spring", "Spring Boot", "JPA/Hibernate", "Oracle"]
+      "keywords": ["Microservices", "DDD", "SOLID", "Design Patterns", "Enterprise Architecture"]
     }
   ],
   "languages": [
