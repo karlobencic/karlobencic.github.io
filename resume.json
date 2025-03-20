@@ -29,7 +29,7 @@
     {
       "name": "NextLevel Dev",
       "url": "https://nextlevel.dev",
-      "position": "Software Architect / DevOps Engineer",
+      "position": "Software Consultant / Freelance",
       "startDate": "2023-01-01",
       "endDate": "",
       "summary": "Leading strategic software development projects across web, mobile, and cloud platforms while providing technical leadership and consulting services. Specializing in enterprise-grade solutions using .NET ecosystem, modern web technologies, and cloud platforms. Focus on microservices architecture, AI integration, and following industry best practices while promoting a culture of continuous learning and innovation.",
@@ -56,15 +56,68 @@
         "Terraform"
       ],
       "highlights": [
-        "Developed the first independent trust infrastructure platform for digital media authentication using C2PA standard at TrustNXT GmbH, incorporating serverless architecture and open-sourcing TypeScript SDK",
-        "Led migration from monolith to cloud-based microservices architecture at Jobmatix B.V., integrating DevOps practices and AI-powered solutions with Flowise AI",
         "Developed a scalable back-office platform at Kimeru BV, implementing microservices architecture with .NET Core, Angular, and RabbitMQ, achieving 24/7 system availability",
         "Built cross-platform legal case management system integrated with Croatian government digital services using React Native and Expo",
         "Constructed membership and event management platform for Croatian Chemical Society with automated workflows and centralized data management",
-        "Designed scalable back-office system for a social support project, applying Clean Architecture and Domain-Driven Design principles",
-        "Implemented robust DevOps practices, establishing CI/CD pipelines for efficient deployment and system reliability"
+        "Designed scalable back-office system for a social support project at Peoples Place Community Partnerships, applying Clean Architecture and Domain-Driven Design principles",
+        "Integrated advanced AI capabilities by training custom models, utilizing vector databases for efficient RAG and LangChain to streamline AI workflows"
       ],
       "location": "Zagreb, Croatia"
+    },
+    {
+      "name": "TrustNXT GmbH",
+      "url": "https://trustnxt.com",
+      "position": "Full Stack Engineer",
+      "startDate": "2024-08-01",
+      "endDate": "2025-03-31",
+      "summary": "Developed the first independent trust infrastructure platform for digital media authentication using C2PA technology standard, incorporating a scalable AWS serverless architecture handling image processing and verification.",
+      "keywords": ["AWS", "Next.js", "React", "TypeScript", "Node.js", "AWS CDK", "DynamoDB", "Lambda", "DevOps", "GitHub Actions", "C2PA"],
+      "highlights": [
+        "Built a comprehensive ecosystem for image signing, verification, and management using C2PA standard",
+        "Solely architected and implemented both backend and frontend systems, ensuring full AWS serverless deployment (Lambda, DynamoDB, S3, CloudFront, SQS, SNS, SST)",
+        "Engineered a proprietary SDK featuring advanced protect and inspect methods, complete with detailed Fumadocs documentation for streamlined integration",
+        "Integrated private Certificate Authority for ephemeral certificate generation and management",
+        "Created public API for third-party verification",
+        "Contributed to the open-sourced TypeScript SDK for C2PA"
+      ],
+      "location": "Hamburg, Germany"
+    },
+    {
+      "name": "Jobmatix B.V.",
+      "url": "https://jobmatix.com",
+      "position": "DevOps Engineer",
+      "startDate": "2023-09-01",
+      "endDate": "2025-01-31",
+      "summary": "As a solution architect and a DevOps engineer, I led migration from monolith to cloud-based microservices architecture on AWS, implementing DevOps practices and AI-powered solutions to drive performance, reliability, and scalability while ensuring cost-effectiveness.",
+      "keywords": [
+        "AWS",
+        "PHP",
+        "Laravel",
+        "Vue.js",
+        "Docker",
+        "Microservices",
+        "Kubernetes",
+        "Terraform",
+        "Redis",
+        "AWS CDK",
+        "DevOps",
+        "Git",
+        "LangChain",
+        "Flowise AI",
+        "Airbyte",
+        "Github Actions"
+      ],
+      "highlights": [
+        "Designing and overseeing the migration of monolith system to the cloud using microservices architecture",
+        "Developing and implementing a strategic roadmap for the migration process, ensuring minimal disruptions to ongoing operations",
+        "Architecting and implementing DevOps practices to streamline deployment processes and enhance system reliability",
+        "Establishing and enforcing best practices for code quality, security, and scalability within the microservices ecosystem",
+        "Providing technical guidance and mentorship to the development team, fostering a culture of continuous learning and innovation",
+        "Managing and optimizing the cloud infrastructure on AWS to meet performance, security, and scalability requirements",
+        "Implementing CI/CD pipelines using GitHub Actions to automate the build, test, and deployment processes for microservices",
+        "Introducing AI-powered solutions like Flowise AI and LangChain to enhance system capabilities and automate tasks"
+      ],
+      "location": "Breda, Netherlands"
     },
     {
       "name": "Notch",
