@@ -60,7 +60,7 @@
         "Built cross-platform legal case management system integrated with Croatian government digital services using React Native and Expo",
         "Constructed membership and event management platform for Croatian Chemical Society with automated workflows and centralized data management",
         "Designed scalable back-office system for a social support project at Peoples Place Community Partnerships, applying Clean Architecture and Domain-Driven Design principles",
-        "Integrated advanced AI capabilities by training custom models, utilizing vector databases for efficient RAG and LangChain to streamline AI workflows"
+        "Integrated advanced AI capabilities working with LLMs, AI pipelines (LangChain, LangFlow, Flowise), and prompt engineering with exposure to RAG pipelines and vector databases"
       ],
       "location": "Zagreb, Croatia"
     },
@@ -69,13 +69,13 @@
       "url": "https://trustnxt.com",
       "position": "Software Architect / Full Stack Engineer",
       "startDate": "2024-08-01",
-      "endDate": "2025-03-31",
-      "summary": "Developed the first independent trust infrastructure platform for digital media authentication using C2PA technology standard, incorporating a scalable AWS serverless architecture handling image processing and verification.",
-      "keywords": ["AWS", "Next.js", "React", "TypeScript", "Node.js", "AWS CDK", "DynamoDB", "Lambda", "DevOps", "GitHub Actions", "C2PA"],
+      "endDate": "2025-04-31",
+      "summary": "As a software architect and a full stack engineer, I developed the first independent trust infrastructure platform for digital media authentication using C2PA technology standard, incorporating scalable AWS serverless architecture handling image processing and verification, including SDK for iOS and Android.",
+      "keywords": ["AWS", "Next.js", "React", "TypeScript", "Node.js", "AWS CDK", "DynamoDB", "Lambda", "DevOps", "GitHub Actions", "C2PA", "iOS", "Android"],
       "highlights": [
         "Built a comprehensive ecosystem for image signing, verification, and management using C2PA standard",
-        "Solely architected and implemented both backend and frontend systems, ensuring full AWS serverless deployment (Lambda, DynamoDB, S3, CloudFront, SQS, SNS, SST)",
-        "Engineered a proprietary SDK featuring advanced protect and inspect methods, complete with detailed Fumadocs documentation for streamlined integration",
+        "Architected and implemented both backend and frontend systems, ensuring full AWS serverless deployment (Lambda, DynamoDB, S3, CloudFront, SQS, SNS, SST)",
+        "Engineered SDK for iOS and Android featuring advanced protect and inspect methods, complete with detailed Fumadocs documentation for streamlined integration",
         "Integrated private Certificate Authority for ephemeral certificate generation and management",
         "Created public API for third-party verification",
         "Contributed to the open-sourced TypeScript SDK for C2PA"
@@ -123,7 +123,7 @@
       "name": "Notch",
       "position": "Principal Software Engineer",
       "startDate": "2022-09-01",
-      "endDate": "2024-09-30",
+      "endDate": "2024-08-30",
       "summary": "Principal Software Engineer with deep technical expertise in designing and delivering high-performance, scalable systems. As a tech lead, I drove the development of D2C services on a global multi-tenant eCommerce platform, architected a reporting solution for Croatian Railways, and implemented advanced DevOps practices on a greenfield EPR project.",
       "keywords": [
         ".NET",
@@ -144,13 +144,13 @@
         "HotChocolate"
       ],
       "highlights": [
-        "Directed the development of a multi-vendor platform that supports multi-brands and multi-markets in both standardized and localized formats",
+        "Worked as a subcontractor for Fontem Ventures B.V. on a multi-vendor platform that supports multi-brands and multi-markets in both standardized and localized formats",
         "Optimized platform performance through microservices tuning and caching strategies, and reduced deployment errors via centralized configuration management",
         "Successfully integrated key third-party services, including Contentful and Commercetools, to enhance platform capabilities",
         "Mentored team of multiple developers, improving code quality and reducing technical debt",
         "Implemented monitoring and alerting system achieving 99.9% platform availability",
         "Architected a robust reporting application for Croatian Railways using .NET and React",
-        "Implemented comprehensive DevOps practices on an Extended Producer Responsibility (EPR) greenfield project, leveraging cutting-edge technologies such as React Relay, GraphQL, VictoriaMetrics, Grafana, and HotChocolate"
+        "Implemented comprehensive DevOps practices on an Extended Producer Responsibility (EPR) greenfield project as a subcontractor for GS1"
       ],
       "location": "Zagreb, Croatia / Amsterdam, Netherlands"
     },
