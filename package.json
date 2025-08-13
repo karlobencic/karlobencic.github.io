@@ -2,18 +2,22 @@
   "name": "karlobencic.github.io",
   "version": "1.0.0",
   "description": "Personal Website Based on JSON Resume",
-  "author": "Karlo Benčić",
+  "main": "index.js",
+  "author": "karlobencic",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "https://github.com/karlobencic/karlobencic.github.io"
   },
   "scripts": {
-    "deploy": "cp public/* .",
-    "start": "resume serve --theme stackoverflow"
+    "start": "resume serve --theme stackoverflow",
+    "preview": "resumed --theme jsonresume-theme-stackoverflow",
+    "deploy": "node index.js"
   },
   "license": "MIT",
   "dependencies": {
-    "jsonresume-theme-stackoverflow": "2.0.0",
-    "resume-cli": "3.0.8"
+    "jsonresume-theme-stackoverflow": "2.0.2",
+    "resume-cli": "^3.1.2",
+    "resumed": "^4.1.0"
   }
 }
