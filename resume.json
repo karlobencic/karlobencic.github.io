@@ -2,11 +2,11 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Karlo Benčić",
-    "label": "Software Engineer",
+    "label": "Software Architect & AI Engineer",
     "email": "karlo.bencic@gmail.com",
     "url": "https://nextlevel.dev",
     "image": "profile.png",
-    "summary": "Software Engineer and Solution Architect with 10+ years of experience in full-stack development, cloud architecture, and DevOps. Expert in .NET Core, React, mobile and cloud technologies such as Azure and AWS. Proven track record of leading enterprise software projects, implementing microservices architectures, and delivering scalable solutions. Strong background in web development, mobile applications, and extensive experience in game development, having created a range of successful games for different platforms. Skilled in Agile methodologies, CI/CD implementation, and cloud infrastructure management. By combining my academic background in model-driven architectures and domain-driven methodologies with an entrepreneurial mindset, I offer deep expertise in product development and a comprehensive understanding of existing solutions in relation to the current technological landscape.",
+    "summary": "Software Engineer and Solution Architect with 12+ years of experience in full-stack development, cloud architecture, AI engineering, and DevOps. Expert in .NET, React, React Native, and cloud platforms (Azure, AWS). Currently building AI-native engineering platforms and leading development of AI-powered legal tech, compliance, and trust infrastructure products. Proven track record of leading enterprise software projects, implementing microservices architectures, and delivering scalable solutions across LegalTech, InsurTech, GovTech, and eCommerce. Strong background in RAG pipelines, LLM integration, prompt engineering, and AI agent development using LangChain, LangGraph, and vector databases. Extensive experience in game development with 5M+ players across 20+ published titles. Skilled in Agile methodologies, CI/CD implementation, and cloud infrastructure management. By combining my academic background in model-driven architectures and domain-driven methodologies with an entrepreneurial mindset, I offer deep expertise in product development and understanding of existing solutions in relation to the current technological landscape.",
     "location": {
       "postalCode": "10000",
       "city": "Zagreb",
@@ -56,18 +56,73 @@
         "Terraform"
       ],
       "highlights": [
-        "Developed a scalable back-office platform at Kimeru BV, implementing microservices architecture with .NET Core, Angular, and RabbitMQ, achieving 24/7 system availability",
-        "Built cross-platform legal case management system integrated with Croatian government digital services using React Native and Expo",
-        "Constructed membership and event management platform for Croatian Chemical Society with automated workflows and centralized data management",
-        "Designed scalable back-office system for a social support project at Peoples Place Community Partnerships, applying Clean Architecture and Domain-Driven Design principles",
-        "Integrated advanced AI capabilities working with LLMs, AI pipelines (LangChain, LangFlow, Flowise), and prompt engineering with exposure to RAG pipelines and vector databases"
+        "Delivering end-to-end software solutions for clients across Belgium, Netherlands, Germany, United Kingdom, United States of America and Croatia - from architecture and development to deployment and maintenance",
+        "Building AI-powered products integrating LLMs, RAG pipelines, vector databases, and custom MCP servers using LangChain, LangGraph, and AI SDK",
+        "Architecting microservices systems with .NET Core, React, and Next.js deployed on Azure, AWS, and Vercel",
+        "Developing cross-platform mobile applications with React Native and Expo, including government and court system integrations",
+        "Providing technical leadership, code reviews, and mentorship across multiple concurrent projects"
       ],
       "location": "Zagreb, Croatia"
     },
     {
+      "name": "PwC",
+      "url": "https://www.pwc.com",
+      "position": "Senior AI Engineer",
+      "startDate": "2025-06-01",
+      "endDate": "",
+      "summary": "Senior AI Engineer on PwC's AI-native engineering initiative. Building cloud-native microservices and platforms that embed AI into every phase of the Software Delivery Lifecycle - from planning and design through coding, testing, and deployment.",
+      "keywords": [
+        "Azure",
+        "LangChain",
+        "LangGraph",
+        "RAG",
+        "Vector Databases",
+        "Docker",
+        "Kubernetes",
+        "GitHub Actions",
+        "Azure DevOps",
+        "Python",
+        "TypeScript",
+        "Microservices"
+      ],
+      "highlights": [
+        "Built the SDLC Launch accelerator: a unified AI-native console for orchestrating the software development lifecycle",
+        "Embedded AI into every phase of the Software Delivery Lifecycle",
+        "Automated and orchestrated software development workflows"
+      ],
+      "location": "Prague, Czech Republic"
+    },
+    {
+      "name": "AI Solutio GmbH",
+      "url": "https://cleverqm.de",
+      "position": "Founding Engineer / Software Architect",
+      "startDate": "2025-05-01",
+      "endDate": "",
+      "summary": "Founding engineer on CleverQM, an EHS (Environment, Health & Safety) and quality management AI SaaS platform for the German market. Driving AI-powered risk assessment, hazardous substance management, and employee instruction modules with German-language compliance workflows.",
+      "keywords": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Supabase",
+        "Tailwind",
+        "TanStack Query",
+        "AI SDK",
+        "MCP",
+        "LangChain",
+        "AWS"
+      ],
+      "highlights": [
+        "Architected risk assessment wizard with AI-powered hazard identification",
+        "Built hazardous substance management module with AI-driven Safety Data Sheet extraction and version tracking",
+        "Implemented LMS employee instruction module with compliance tracking for mandatory safety training",
+        "Developed custom MCP servers for AI context retrieval and prompt engineering with structured German-language outputs"
+      ],
+      "location": "Stuttgart, Germany"
+    },
+    {
       "name": "TrustNXT GmbH",
       "url": "https://trustnxt.com",
-      "position": "Software Architect / Full Stack Engineer",
+      "position": "Founding Engineer / Full Stack Developer",
       "startDate": "2024-08-01",
       "endDate": "",
       "summary": "Founding full-stack engineer delivering TrustNXT's first C2PA-based trust infrastructure for authenticating digital media. Bootstrapped AWS serverless foundations from scratch and shipped Web/Android/iOS SDKs, a React Native whitelabel app, and multi-tenant backends that enable secure capture, certificate issuance, timestamping, and verification used in insurer pilots.",
@@ -75,9 +130,12 @@
         "AWS",
         "Next.js",
         "React",
+        "React Native",
         "TypeScript",
         "Node.js",
+        "Kotlin",
         "AWS CDK",
+        "SST",
         "DynamoDB",
         "Lambda",
         "DevOps",
@@ -88,9 +146,9 @@
       ],
       "highlights": [
         "Designed and operated Trust SDK APIs: Protect (ephemeral client certificates via ACM PCA), Inspect (label verification), and RFC3161 TSA",
-        "Implemented nonce-based HMAC request signing, strict CSR validation, JWT validation, and signer allow-listing",
+        "Implemented security layer with nonce-based HMAC request signing, CSR validation, JWT auth, and signer allow-listing",
         "Built a multi-tenant whitelabel backend with token lifecycle, secure photo ingestion, inspection pipeline, and React SSR deep-link landing",
-        "Implemented both backend and frontend systems, ensuring full AWS serverless deployment (Lambda, DynamoDB, S3, CloudFront, SQS, SNS)",
+        "Deployed full AWS serverless infrastructure with Lambda, DynamoDB, S3, CloudFront, SQS, and SNS",
         "Developed TypeScript Web SDK and Kotlin Android SDK with documented flows (Fumadocs); collaborated on iOS SDK without owning the iOS app",
         "Set up developer experience and observability: CloudWatch dashboards/alarms, Slack ChatOps, Swagger UI, LocalStack",
         "Contributed to open-source c2pa-ts (TypeScript C2PA implementation by TrustNXT), aligning product with industry standards"
@@ -123,14 +181,11 @@
         "Github Actions"
       ],
       "highlights": [
-        "Designing and overseeing the migration of monolith system to the cloud using microservices architecture",
-        "Developing and implementing a strategic roadmap for the migration process, ensuring minimal disruptions to ongoing operations",
-        "Architecting and implementing DevOps practices to streamline deployment processes and enhance system reliability",
-        "Establishing and enforcing best practices for code quality, security, and scalability within the microservices ecosystem",
-        "Providing technical guidance and mentorship to the development team, fostering a culture of continuous learning and innovation",
-        "Managing and optimizing the cloud infrastructure on AWS to meet performance, security, and scalability requirements",
-        "Implementing CI/CD pipelines using GitHub Actions to automate the build, test, and deployment processes for microservices",
-        "Introducing AI-powered solutions like Flowise AI and LangChain to enhance system capabilities and automate tasks"
+        "Led migration of monolith system to cloud-based microservices on AWS, with a strategic roadmap ensuring zero disruption to operations",
+        "Architected CI/CD pipelines with GitHub Actions and infrastructure as code, implementing zero-downtime deployments",
+        "Built AI-powered solutions with Flowise AI and LangChain, including pipeline analytics and cost tracking with Langsmith",
+        "Deployed Airbyte for data ingestion and transformation pipelines",
+        "Established code quality, security, and scalability best practices while mentoring the development team"
       ],
       "location": "Breda, Netherlands"
     },
@@ -159,13 +214,11 @@
         "HotChocolate"
       ],
       "highlights": [
-        "Worked as a subcontractor for Fontem Ventures B.V. on a multi-vendor platform that supports multi-brands and multi-markets in both standardized and localized formats",
-        "Optimized platform performance through microservices tuning and caching strategies, and reduced deployment errors via centralized configuration management",
-        "Successfully integrated key third-party services, including Contentful and Commercetools, to enhance platform capabilities",
-        "Mentored team of multiple developers, improving code quality and reducing technical debt",
-        "Implemented monitoring and alerting system achieving 99.9% platform availability",
-        "Architected a robust reporting application for Croatian Railways using .NET and React",
-        "Implemented comprehensive DevOps practices on an Extended Producer Responsibility (EPR) greenfield project as a subcontractor for GS1"
+        "Tech lead for D2C services on a global multi-tenant eCommerce platform at Fontem Ventures, operating in 20+ countries with Commercetools, Contentful, and GraphQL",
+        "Optimized platform performance through microservices tuning and caching strategies, achieving 99.9% availability",
+        "Mentored multiple developers, reducing technical debt and improving code quality through centralized configuration management",
+        "Architected a reporting application for Croatian Railways using .NET and React",
+        "Implemented DevOps practices on a greenfield EPR project as a subcontractor for GS1"
       ],
       "location": "Zagreb, Croatia / Amsterdam, Netherlands"
     },
@@ -198,26 +251,26 @@
         "React Native"
       ],
       "highlights": [
-        "Software architect and lead mobile developer on public transport eTicketing in the city of Split and electronic toll collection systems on Croatian highways",
-        "Delivered high-quality web solutions using .NET and React, alongside mobile applications developed with React Native, ensuring smooth integration with Google API, Firebase, and GTFS data for accurate trip planning and real-time updates",
-        "Engineered seamless integrations with payment providers, real-time vehicle data from on-board units, back-office systems, and fleet management platforms to support end-to-end service delivery",
-        "Implemented advanced authentication and authorization frameworks using Keycloak and LDAP, while optimizing system performance with technologies such as MongoDB, MSSQL, Redis, gRPC, and RabbitMQ",
-        "Refined development processes and mentored team members, serving as a lecturer for university students at the internal academy"
+        "Software architect and lead mobile developer on public transport eTicketing in Split and electronic toll collection (ENC) on Croatian highways",
+        "Built web solutions with .NET and React, and mobile applications with React Native integrated with Google API, Firebase, and GTFS for real-time trip planning",
+        "Engineered integrations with payment providers, real-time vehicle data from on-board units, and fleet management platforms",
+        "Implemented authentication frameworks using Keycloak and LDAP, with system performance optimization using MongoDB, Redis, gRPC, and RabbitMQ",
+        "Mentored team members and served as lecturer for university students at the internal academy"
       ],
       "location": "Zagreb, Croatia"
     },
     {
       "name": "KING ICT",
       "position": "Full Stack Developer",
-      "startDate": "2018-12-31",
+      "startDate": "2018-11-30",
       "endDate": "2019-07-31",
       "summary": "Full Stack developer at project for government digital services",
       "keywords": ["Java", "Spring", "Hibernate", "Oracle", "React", "Gradle"],
       "highlights": [
-        "Full-stack web developer using Java and React for the government project 'Jedinstveno Upravno Mjesto' led by FINA (Croatian Financial Agency)",
-        "Developed digital services unifying citizen forms and requests into a single application as part of the e-Građani (e-Citizens) platform",
-        "Integrated with NIAS (eIDAS) for user authentication and authorization by working with ID cards, digital certificates, and cryptographic methods to ensure secure and compliant identity verification",
-        "Integrated IPG provider CorvusPay for payment processing"
+        "Developed government digital services for 'Jedinstveno Upravno Mjesto' led by FINA as part of the e-Građani (e-Citizens) platform",
+        "Unified citizen forms and requests into a single application serving millions of users",
+        "Integrated NIAS (eIDAS) for identity verification using ID cards, digital certificates, and cryptographic methods",
+        "Integrated payment processing with CorvusPay"
       ],
       "location": "Zagreb, Croatia"
     },
@@ -231,7 +284,7 @@
       "highlights": [
         "Founded and managed a dedicated development team for game development",
         "Developed and published over 20 web, mobile and PC games with over 5 million players in total",
-        "Engineered, optimized, and published games on major platforms including Google Play and the App Store, ensuring optimized performance, reduced build sizes, and quality cross-platform experiences",
+        "Published games on Google Play and the App Store with optimized performance, reduced build sizes, and quality cross-platform experiences",
         "Integrated essential game components such as in-app purchases, ads, leaderboards, achievements, and social gaming services (Apple Game Center, Google Play Games Services), alongside robust analytics and monetization strategies",
         "Oversaw complete game development cycles, from initial concept and technical design to deployment and maintenance, incorporating advanced techniques like reverse engineering and code obfuscation"
       ],
@@ -321,11 +374,13 @@
         "React",
         "Next.js",
         "Node.js",
+        "Bun",
         "REST API",
         "GraphQL",
         "Angular",
         "Nest.js",
         "Tailwind",
+        "TanStack Query",
         "Web3.js",
         "Laravel"
       ]
@@ -333,22 +388,32 @@
     {
       "name": "Cloud & DevOps",
       "level": "master",
-      "keywords": ["Azure", "AWS", "Vercel", "Docker", "Kubernetes", "CI/CD", "Terraform", "AWS CDK", "GCP"]
+      "keywords": ["Azure", "AWS", "Vercel", "Docker", "Kubernetes", "CI/CD", "Terraform", "AWS CDK", "SST", "GitHub Actions", "Azure DevOps", "GCP"]
     },
     {
       "name": "Database Technologies",
       "level": "advanced",
-      "keywords": ["SQL", "NoSQL", "MSSQL", "PostgreSQL", "MongoDB", "Redis", "AWS RDS", "DynamoDB"]
+      "keywords": ["SQL", "NoSQL", "MSSQL", "PostgreSQL", "Supabase", "MongoDB", "Redis", "AWS RDS", "DynamoDB", "PGVector"]
     },
     {
       "name": "Mobile Development",
       "level": "advanced",
-      "keywords": ["React Native", "Expo", "Android", "iOS", "Firebase", "Google API"]
+      "keywords": ["React Native", "Expo", "Android", "iOS", "Firebase", "Google API", "NativeWind"]
     },
     {
       "name": "Software Architecture",
       "level": "master",
-      "keywords": ["Microservices", "DDD", "SOLID", "Design Patterns", "Enterprise Architecture", "Cloud Architecture"]
+      "keywords": ["Microservices", "DDD", "SOLID", "Design Patterns", "Enterprise Architecture", "Cloud Architecture", "CQRS", "Event-Driven"]
+    },
+    {
+      "name": "AI & Machine Learning",
+      "level": "advanced",
+      "keywords": ["LangChain", "LangGraph", "RAG Pipelines", "Vector Databases", "PGVector", "Prompt Engineering", "Context Engineering", "AI SDK", "Flowise AI", "MCP", "LLM Integration"]
+    },
+    {
+      "name": "Security & Trust",
+      "level": "advanced",
+      "keywords": ["C2PA", "PKI", "HMAC", "JWT", "OAuth", "Keycloak", "eIDAS", "RFC3161"]
     }
   ],
   "languages": [
@@ -365,26 +430,60 @@
   ],
   "interests": [
     {
+      "name": "AI & LLMs"
+    },
+    {
       "name": "Video games"
     },
     {
-      "name": "Cryptocurrencies"
-    },
-    {
-      "name": "Blockchain"
-    },
-    {
-      "name": "Automotive industry"
-    },
-    {
-      "name": "Education"
-    },
-    {
-      "name": "Artificial intelligence"
+      "name": "Blockchain & DLT"
     }
   ],
   "references": [],
   "projects": [
+    {
+      "name": "Aiuris - Digital Legal Assistant",
+      "summary": "Intelligent legal assistant app for lawyers and judges featuring AI-powered legal consultation, extensive legal databases with 1.000.000+ judicial decisions, and integration with Croatia's e-Komunikacija court system.",
+      "url": "https://aiuris.app",
+      "keywords": ["React Native", "Expo", ".NET", "PGVector", "AI SDK", "LangGraph", "MCP", "TypeScript"],
+      "highlights": [
+        "Built AI-powered legal assistant with intelligent document drafting and legal consultation using RAG pipelines and vector databases",
+        "Integrated with e-Komunikacija court system for real-time case synchronization and automated deadline tracking",
+        "Digitalized 1M+ judicial practice documents and 3M+ court notices from e-Oglasna archive",
+        "Developed cross-platform mobile app (iOS, Android) with biometric authentication and device integrity checks",
+        "Built .NET backend with Marten/WolverineFx and custom MCP server for legal knowledge retrieval"
+      ]
+    },
+    {
+      "name": "Enterprise Back-office Platform (Kimeru)",
+      "summary": "Modernization of a monolithic back-office system into a scalable microservices architecture for managing cleaning services, client communication, and complex scheduling with 24/7 availability.",
+      "url": "https://kimeru.be",
+      "keywords": [".NET Core", "Angular", "RabbitMQ", "Docker", "Keycloak", "Hangfire", "Microservices"],
+      "highlights": [
+        "Implemented scalable microservices architecture with message queuing via RabbitMQ",
+        "Integrated Keycloak for secure authentication and Hangfire for background processing",
+        "Achieved 24/7 system availability with containerized deployment and automated CI/CD"
+      ]
+    },
+    {
+      "name": "Scientific Society Management (HKD)",
+      "summary": "Integrated platform for membership processes, event management, and administrative operations for the Croatian Chemical Society (Hrvatsko Kemijsko Društvo).",
+      "url": "https://hkd.hr",
+      "keywords": ["Next.js", "PostgreSQL", "Docker"],
+      "highlights": [
+        "Built centralized member database with automated membership applications and renewals",
+        "Implemented admin dashboard with data management and automated email workflows"
+      ]
+    },
+    {
+      "name": "Peoples Place Community Platform",
+      "summary": "Scalable back-office system for a social support project at Peoples Place Community Partnerships based in United Kingdom, applying Clean Architecture and Domain-Driven Design principles.",
+      "keywords": [".NET Core", "React", "Clean Architecture", "DDD"],
+      "highlights": [
+        "Designed and implemented a scalable back-office system following Clean Architecture and DDD principles",
+        "Built case management workflows for community support services"
+      ]
+    },
     {
       "name": "Paradise Paintball 4D",
       "summary": "A revival project of the old Paradise Paintball 3D browser game which later evolved to UberStrike. This game allows you to play against other players within your web browser without any installations.",
@@ -405,7 +504,7 @@
     },
     {
       "name": "Distributed Land Registry",
-      "summary": "Distributed Land Registry solution for Croatia using blockchain technology. All users have read-only access to the blockchain data, but land owner nodes have write access for managing their own land registry data using a smart contract written in chaincode with TypeScript and Go. All nodes in the network are connected to a Kafka cluster for message queuing and a CouchDB cluster for storing the blockchain data.",
+      "summary": "Distributed Land Registry solution for Croatia using blockchain technology. Users have read-only access to the blockchain data, but land owner nodes have write access for managing their own land registry data using a smart contract written in chaincode with TypeScript and Go. Nodes in the network are connected to a Kafka cluster for message queuing and a CouchDB cluster for storing the blockchain data.",
       "keywords": [
         "Smart contracts",
         "Hyperledger Fabric",
@@ -426,7 +525,7 @@
     },
     {
       "name": "DLT Oracle",
-      "summary": "Decentralized oracle for requesting cryptocurrency market prices. This project implements the possible solution to 'oracle problem', which is one of the biggest problems facing DLT systems based on smart contracts. Since the concept of reliability in DLT systems is not adequately solved by cryptographic security, we arrive at the concept of data truthfulness as a new property needed to characterize reliable, decentralized systems. A decentralized oracle makes DLT useful by allowing the entry of non-confidential data into the system in a decentralized manner, without relying on a central entity, which eliminates a single point of failure.",
+      "summary": "This project implements the possible solution to 'oracle problem', which is one of the biggest problems facing DLT systems based on smart contracts. Since the concept of reliability in DLT systems is not adequately solved by cryptographic security, we arrive at the concept of data truthfulness as a new property needed to characterize reliable, decentralized systems. A decentralized oracle makes DLT useful by allowing the entry of non-confidential data into the system in a decentralized manner, without relying on a central entity, which eliminates a single point of failure.",
       "keywords": ["Ethereum", "Solidity", "Truffle", "Chainlink", "Web3.js", "NodeJS", "React", "Docker"],
       "highlights": [
         "Developed an academic project as part of my master's thesis, involving a smart contract for requesting cryptocurrency market prices and a web application for managing the oracle",
