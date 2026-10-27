@@ -397,13 +397,15 @@
   "publications": [],
   "skills": [
     {
-      "name": "Programming Languages",
-      "level": "master",
-      "keywords": ["C#", ".NET", "JavaScript", "TypeScript", "Java", "Unity", "PHP", "Go", "Python"]
+      "name": "AI & ML",
+      "keywords": ["LangChain", "LangGraph", "RAG Pipelines", "Vector Databases", "PGVector", "Prompt Engineering", "Context Engineering", "AI SDK", "Flowise AI", "MCP", "LLM Integration"]
+    },
+    {
+      "name": "Software Architecture",
+      "keywords": ["SOA", "Microservices", "DDD", "SOLID", "Design Patterns", "Enterprise Architecture", "Cloud Architecture", "CQRS", "Event-Driven", "RabbitMQ", "MassTransit", "gRPC"]
     },
     {
       "name": "Web Development",
-      "level": "master",
       "keywords": [
         "ASP.NET Core",
         "React",
@@ -423,33 +425,23 @@
     },
     {
       "name": "Cloud & DevOps",
-      "level": "master",
       "keywords": ["Azure", "AWS", "Vercel", "Docker", "Kubernetes", "CI/CD", "Terraform", "AWS CDK", "SST", "GitHub Actions", "Azure DevOps", "GCP", "Helm"]
     },
     {
-      "name": "AI & ML",
-      "level": "master",
-      "keywords": ["LangChain", "LangGraph", "RAG Pipelines", "Vector Databases", "PGVector", "Prompt Engineering", "Context Engineering", "AI SDK", "Flowise AI", "MCP", "LLM Integration", "Autonomous Coding Agents"]
+      "name": "Programming Languages",
+      "keywords": ["C#", ".NET", "JavaScript", "TypeScript", "Java", "Unity", "PHP", "Go", "Python"]
     },
     {
       "name": "Mobile Development",
-      "level": "advanced",
       "keywords": ["React Native", "Expo", "Android", "iOS", "Firebase", "Google API", "NativeWind"]
     },
     {
-      "name": "Software Architecture",
-      "level": "master",
-      "keywords": ["SOA", "Microservices", "DDD", "SOLID", "Design Patterns", "Enterprise Architecture", "Cloud Architecture", "CQRS", "Event-Driven", "RabbitMQ", "MassTransit", "gRPC"]
+      "name": "Security & Trust",
+      "keywords": ["C2PA", "PKI", "HMAC", "JWT", "OAuth", "Keycloak", "eIDAS", "Sigstore", "in-toto", "Cosign"]
     },
     {
       "name": "Database Technologies",
-      "level": "advanced",
       "keywords": ["SQL", "NoSQL", "MSSQL", "PostgreSQL", "Supabase", "MongoDB", "Redis", "AWS RDS", "DynamoDB", "PGVector", "Prisma"]
-    },
-    {
-      "name": "Security & Trust",
-      "level": "advanced",
-      "keywords": ["C2PA", "PKI", "HMAC", "JWT", "OAuth", "Keycloak", "eIDAS", "Sigstore", "in-toto", "Cosign"]
     }
   ],
   "languages": [

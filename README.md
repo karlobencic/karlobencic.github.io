@@ -21,3 +21,8 @@ View the CV:
 ```bash
 npm start
 ```
+
+Export to single-page PDF:
+```bash
+npm run pdf
+```

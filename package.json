@@ -12,6 +12,8 @@
   "scripts": {
     "start": "resume serve --theme stackoverflow",
     "preview": "resumed --theme jsonresume-theme-stackoverflow",
+    "build": "node index.js",
+    "pdf": "node index.js && node pdf.js",
     "deploy": "node index.js"
   },
   "license": "MIT",
