@@ -20,7 +20,7 @@ await page.addStyleTag({
 });
 
 const bodyHeight = await page.evaluate(() => document.getElementById("resume").scrollHeight);
-const heightMm = Math.ceil((bodyHeight * 25.4) / 96) + 80;
+const heightMm = Math.ceil((bodyHeight * 25.4) / 96) + 85;
 const outputPath = "public/karlobencic_cv.pdf";
 
 await page.pdf({
